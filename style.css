@@ -36,6 +36,12 @@ a {
     gap: 20%;
 }
 
+.top-nav-item .icon {
+    display: none;
+    font-size: 22px;
+    color: white;
+}
+
 .top-nav-item ul {
     display: flex;
 }
@@ -137,13 +143,13 @@ p {
 }
 
 
-.item-cover {
+.item-cover img {
     margin-top: 30px;
     width: 400px;
     height: 400px;
-    border-radius: 50%;
-    border: 5px dashed #A2A2A2;
-    position: relative;
+    /* border-radius: 50%; */
+    /* border: 5px dashed #A2A2A2; */
+    /* position: relative; */
 }
 
 
@@ -245,6 +251,7 @@ p {
     color: #475E69;
 }
 
+
 .card-important .important-text {
     padding-right: 80px;
     padding-bottom: 20px;
@@ -290,4 +297,299 @@ p {
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
+}
+
+/* NEW COMER TOOLS  */
+.newComer-cards-container {
+    box-shadow: 4px 2px 10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.cards-item {
+    /* padding-left: 40px;
+    justify-content: center;
+    text-align: center; */
+    display: grid;
+    place-items: center;
+}
+
+.cards-newComer {
+    padding-top: 40px;
+}
+
+.cards-item-1 {
+    display: flex;
+    gap: 50px;
+    width: 9px 25px;
+}
+
+.cards-item-2 {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 40px;
+    width: 9px 25px;
+
+}
+
+.newComer-cards-container img {
+    padding: 20px 20px;
+    width: 120px;
+}
+
+.newComer-header {
+    display: flex;
+    gap: 40%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.newComer-info {
+    flex-direction: column;
+}
+
+/* TRUSTED BRANDS */
+
+.trustedBrands-content {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.trustedBrands-item img {
+    width: 110px;
+    padding-bottom: 20px;
+}
+
+.trustedBrands-item p {
+    color: #475E69;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px
+}
+
+/* TESTIMONIAL PAGE */
+.testimonial-topPage {
+    background-color: #F9F9F9;
+}
+
+.testimonial-cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-continer {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.testimonial-header {
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.testimonial-content {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    width: 350px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.testimonial-content h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #475E69;
+}
+
+.card-footer {
+    padding-top: 10px;
+    display: flex;
+}
+
+.footer-info h3,
+.footer-info p {
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer-info p {
+    color: #30444E;
+}
+
+.card-item i {
+    color: #FFC942;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    /* text-align: left; */
+}
+
+/* SUBSCRIBE PAGE  */
+/* 
+.susbcribe-page {
+    background-color: #1F2E35;
+} */
+
+.subscribe-container {
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #1F2E35;
+}
+
+.subscribe-header h1 {
+    padding-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.subscribe-header h3 {
+    padding-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* BU KOD ISLEMIR */
+
+.subscribe-info #id {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* BU KOD ISLEMIR */
+
+
+.subscribe-info button {
+    padding: 9px 25px;
+    background-color: #0086D6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F5F5F5;
+    border-radius: 4px;
+}
+
+.subscribe-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#email {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 17px;
+}
+
+label[for="email"] {
+    font-weight: bold;
+}
+
+/* Bu kod islemir */
+input[id="email"] {
+    font-family: "Poppins";
+}
+
+/* SUBSCRIBE FOOTER */
+
+.subscribe-footer {
+    background: #1F2E35;
+    border: 1px solid #666666;
+    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.footer-content {
+    padding-top: 40px;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    /* text-align: center; */
+    padding-right: 40px;
+}
+
+.footer-logo p {
+    padding-top: 15px;
+}
+
+.footer-buttons {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.footer-buttons .fa-facebook,
+.fa-instagram,
+.fa-twitter {
+    color: #0086D6;
+    width: 40px;
+}
+
+.resource-text h3,
+a {
+    color: #FFFFFF;
+}
+
+.resource-text h3 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.resource-text a {
+    font-size: 16px;
+    /* flex-direction: column; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width:767px) {
+    .top-nav-item .icon {
+        display: block;
+        font-size: 22px;
+        color: white;
+    }
+
+    .top-nav-item .page-breadcrumb {
+        display: none;
+    }
+
+    .top-nav-item span {
+        display: none;
+    }
 }
